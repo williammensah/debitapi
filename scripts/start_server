@@ -1,0 +1,6 @@
+#!/bin/bash
+cd /var/www/html/dd-merchant-onboarding-api
+chmod -R 777 storage/ bootstrap/
+
+composer install
+service httpd restart

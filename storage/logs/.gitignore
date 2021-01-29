@@ -1,0 +1,7 @@
+*
+!.gitignore
+/.idea
+Homestead.json
+Homestead.yaml
+/vendor
+.env
